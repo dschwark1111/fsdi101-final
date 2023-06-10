@@ -1,0 +1,238 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Tajawal', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3{
+    text-align: center;
+}
+p{
+    line-height: 1.5;
+}
+/*utilities*/
+.title{ 
+    font-weight: 700;
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    display: block;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btnclasses {
+    display: block;
+    width: 200px;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.flex-containerfooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+    /* text-align: center; */
+}
+.flex-container-col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flex-container3 {
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    text-overflow: clip;
+}
+.flex-container3 section{
+    width: 300px;
+    margin-top: 30px;
+}
+.flex-container3 p{
+    margin-top: 10px;
+    
+}
+/*header*/
+.site-init{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(./img/banner.jpg);
+    background-position: center,center;
+    background-size: cover;
+    height: 350px;
+}
+.site-init h1,.site-contact h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+}
+.site-init p{
+    color: white;
+    text-align: center;
+}
+p.subtitle{
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+/*nav*/
+.menu{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.menu a{
+    color: white;
+    margin-right: 30Px;
+}
+
+/*blog*/
+.blog{
+    border-bottom: 1px solid rgb(25, 22, 22);
+    margin-bottom: 20px;
+}
+/*footer*/
+footer{
+    display: block;
+    background-color: black;
+    height: 8vw;
+    color: white;
+}
+/*About*/
+.flexcontainerabout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.site-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: 600; 
+    align-items: center;
+}
+.aboutustext{
+    align-items: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*contact*/
+.site-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #222;
+    height: 15vw;
+}
+/*form*/
+.contact-img{
+    width: 100%;
+}
+.contact-form{
+    width: 70%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: -80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-field {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+label{
+    display: inline-block;
+    width: 100px;
+}
+.input-control, textarea{
+    border: 1px solid black;
+    width: 80%;
+    padding: 3px;
+}
+/*courses*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vw;
+    margin-top: 0px;
+}
+.flex-item{
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    color: black;
+    margin-top: 0px;
+}
+.btncourses{
+    width: 150px;
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: auto;
+}
+.flex-container-signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.c3img{
+    margin: auto;
+    width: 100%;
+}
